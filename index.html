@@ -10,7 +10,7 @@
     <div class="container fluid">
       <div class="row">
         <div class="col-md-6">
-          <form class="Dice">
+          <form id="player1">
             <div class="form-group">
               <label for="player1">Player1Name</label>
               <input required class="player1Name form-control" type="text">
@@ -24,20 +24,27 @@
 
         </div>
         <div class="col-md-6">
-          <form class="Dice">
+          <form class="Player2">
             <div class="form-group">
               <label for="player2">Player2Name</label>
               <input required class="player2Name form-control" type="text">
-              <button id="start" class="btn-info-btn">Start game</button>
               <button id="player2-roll" class="btn-success btn">Roll</button>
               <button id="player2hold" class="btn-success btn">Hold</button>
             </div>
 
           </form>
 
+          <button id="start" class="btn-info-btn">Start game</button>
+
+
         </div>
 
       </div>
+
+    </div>
+    <div class="container" id="gameSelector">
+      <button id="newGame" class="btn-success btn">New Game</button>
+
 
     </div>
 
